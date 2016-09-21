@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="textBack">←</string>
+    <string name="textClear">C</string>
+    <string name="textDivision">/</string>
+    <string name="textMultiplication">*</string>
+    <string name="textSubstraction">-</string>
+    <string name="textAddition">+</string>
+    <string name="textResult">=</string>
+</resources>
