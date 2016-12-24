@@ -68,4 +68,8 @@ public class MyAsyncTask extends AsyncTask<Void, Void, String> {
         super.onPostExecute(joke);
         mTaskListener.onTaskFinish(joke);
     }
+
+    public void updateActivity(TaskListener taskListener) {
+        mTaskListener = taskListener;
+    }
 }

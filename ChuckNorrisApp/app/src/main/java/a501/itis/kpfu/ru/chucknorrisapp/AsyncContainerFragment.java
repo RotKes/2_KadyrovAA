@@ -18,6 +18,8 @@ public class AsyncContainerFragment extends Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         mTaskListener = (TaskListener) context;
+        if (asyncTask != null)
+        asyncTask.updateActivity(mTaskListener);
     }
 
     @Override

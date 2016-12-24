@@ -1,6 +1,5 @@
 package a501.itis.kpfu.ru.chucknorrisapp;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,8 +11,6 @@ public class MainActivity extends AppCompatActivity implements TaskListener {
     private TextView tv;
     private Button btn;
     private ProgressBar progressBar;
-
-    private Context context = this;
 
     private static final String KEY_CURRENT_PROGRESS_VISIBILITY = "current_progress";
     private static final String KEY_CURRENT_TEXT = "current_joke";
